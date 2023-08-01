@@ -20,5 +20,7 @@ Here are some ideas to get you started:
 ![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python)
 ![Github Actions](https://img.shields.io/badge/Github Actions-333333?style=for-the-bardge&logo=ci)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/1871fbf00e66f9f7fca4/ci)](https://codeclimate.com/github/zitaker/python-project-50/maintainability)
+
 
 
