@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 ![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git)
 ![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python)
-![Github Actions](https://img.shields.io/badge/Github Actions-333333?style=for-the-bardge&logo=CI/CD)
+![Github Actions](https://img.shields.io/badge/Github Actions-333333?style=for-the-bardge&logo=CD)
 
 
 
