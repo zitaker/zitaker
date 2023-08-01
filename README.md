@@ -15,6 +15,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git&logoColor=ffffff)
+![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python=git&logoColor=ffffff)
+![Poetry](https://img.shields.io/badge/Poetry-333333?style=for-the-bardge&logo=Poetry=git&logoColor=ffffff)
+![Poetry](https://img.shields.io/badge/CI/CD-333333?style=for-the-bardge&logo=githubactions=git&logoColor=ffffff)
 
 ![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git)
 ![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python)
