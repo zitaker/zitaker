@@ -26,6 +26,7 @@ Here are some ideas to get you started:
 ![Poetry](https://img.shields.io/badge/Poetry-333333?style=for-the-bardge&logo=Poetry)
 ![PyTest](https://img.shields.io/badge/PyTest-333333?style=for-the-bardge&logo=pytest)
 ![Flake8](https://img.shields.io/badge/Flake8-333333?style=for-the-bardge&logo=Python)
+![CodeClimate](https://img.shields.io/badge/CodeClimate-333333?style=for-the-bardge&logo=codeclimate)
 ![HTML](https://img.shields.io/badge/HTML-333333?style=for-the-bardge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-333333?style=for-the-bardge&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-333333?style=for-the-bardge&logo=bootstrap)
