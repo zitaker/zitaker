@@ -1,6 +1,10 @@
 ### Hi there 👋
 
 <!--
+сайт для поиска виджетов https://simpleicons.org/?q=Actions
+как реализовать виджет https://the-unl.com/kak-oformit-profil-na-github-s-pomoshchyu-github-profile-readme-21
+https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
+
 **zitaker/zitaker** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -14,16 +18,16 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git&logoColor=ffffff)
-![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python&logoColor=ffffff)
-![Poetry](https://img.shields.io/badge/Poetry-333333?style=for-the-bardge&logo=Poetry&logoColor=ffffff)
-![Poetry](https://img.shields.io/badge/CI/CD-333333?style=for-the-bardge&logo=githubactions&logoColor=ffffff)
 
-![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git)
 ![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python)
+![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git)
+![GithubActions](https://img.shields.io/badge/GithubActions(CI/CD)-333333?style=for-the-bardge&logo=githubactions)
+![Bash](https://img.shields.io/badge/Bash-333333?style=for-the-bardge&logo=gnubash)
+
 ![Poetry](https://img.shields.io/badge/Poetry-333333?style=for-the-bardge&logo=Poetry)
 ![Poetry](https://img.shields.io/badge/CI/CD-333333?style=for-the-bardge&logo=githubactions)
 
 
-https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
-![GithubActions](https://img.shields.io/badge/GithubActions(CI/CD)-333333?style=for-the-bardge&logo=githubactions)
+
+
+
