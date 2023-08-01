@@ -16,6 +16,7 @@ Here are some ideas to get you started:
 -->
 ![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git&logoColor=ffffff)
 
-?style=for-the-bardge&logo=appveyor
+![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git)
+
 
 
