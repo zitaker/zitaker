@@ -22,4 +22,4 @@ Here are some ideas to get you started:
 
 
 https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
-![Poetry](https://img.shields.io/badge/Poetry-333333?style=for-the-bardge&logo=githubactions)
+![Poetry](https://img.shields.io/badge/CI/CD-333333?style=for-the-bardge&logo=githubactions)
