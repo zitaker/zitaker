@@ -14,7 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Flutter](https://img.shields.io/badge/Flutter-5ED0BD)
+![Flutter](https://img.shields.io/badge/Flutter-5ED0BD
+?style=for-the-bardge&logo=appveyor)
 
+?style=for-the-bardge&logo=appveyor
 
 
