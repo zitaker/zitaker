@@ -25,6 +25,11 @@ Here are some ideas to get you started:
 ![Bash](https://img.shields.io/badge/Bash-333333?style=for-the-bardge&logo=gnubash)
 ![Poetry](https://img.shields.io/badge/Poetry-333333?style=for-the-bardge&logo=Poetry)
 ![Flake8](https://img.shields.io/badge/Flake8-333333?style=for-the-bardge&logo=Python)
+![HTML](https://img.shields.io/badge/HTML-333333?style=for-the-bardge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-333333?style=for-the-bardge&logo=css3)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-333333?style=for-the-bardge&logo=bootstrap)
+![NetworkAdministration](https://img.shields.io/badge/NetworkAdministration-333333?style=for-the-bardge&logo=bootstrap)
+
 
 
 
