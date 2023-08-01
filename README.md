@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Flutter](https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>)
+![Flutter](https://img.shields.io/badge/<MESSAGE>-<COLOR>)
 ![Github Gist stars](https://img.shields.io/github/gist/stars/:gistId)
 
 
