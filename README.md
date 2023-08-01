@@ -14,6 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Static Badge](https://img.shields.io/badge/:badgeContent)
+![Flutter](https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>)
+![Github Gist stars](https://img.shields.io/github/gist/stars/:gistId)
+
 
 
