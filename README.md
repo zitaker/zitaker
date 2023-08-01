@@ -23,9 +23,9 @@ Here are some ideas to get you started:
 ![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git)
 ![GithubActions](https://img.shields.io/badge/GithubActions(CI/CD)-333333?style=for-the-bardge&logo=githubactions)
 ![Bash](https://img.shields.io/badge/Bash-333333?style=for-the-bardge&logo=gnubash)
-
 ![Poetry](https://img.shields.io/badge/Poetry-333333?style=for-the-bardge&logo=Poetry)
-![Poetry](https://img.shields.io/badge/CI/CD-333333?style=for-the-bardge&logo=githubactions)
+![Flake8](https://img.shields.io/badge/Flake8-333333?style=for-the-bardge&logo=Python)
+
 
 
 
