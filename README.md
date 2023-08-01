@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
+## And here's what I already know
 ![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python)
 ![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git)
 ![GithubActions](https://img.shields.io/badge/GithubActions(CI/CD)-333333?style=for-the-bardge&logo=githubactions)
@@ -30,7 +30,9 @@ Here are some ideas to get you started:
 ![HTML](https://img.shields.io/badge/HTML-333333?style=for-the-bardge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-333333?style=for-the-bardge&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-333333?style=for-the-bardge&logo=bootstrap)
-![NetworkAdministration](https://img.shields.io/badge/NetworkAdministration-333333?style=for-the-bardge&logo=worldhealthorganization)
+![NetworkAdministration](https://img.shields.io/badge/NetworkAdministration-333333?style=for-the-bardge&logo=worldhealthorganization)  
+
+## And here's what I'm going to study or already learning
 
 
 
