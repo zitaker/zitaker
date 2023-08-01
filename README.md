@@ -26,4 +26,4 @@ Here are some ideas to get you started:
 
 
 https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
-![GithubActions](https://img.shields.io/badge/GithubActions(ci)-333333?style=for-the-bardge&logo=githubactions)
+![GithubActions](https://img.shields.io/badge/GithubActions(CI/CD)-333333?style=for-the-bardge&logo=githubactions)
