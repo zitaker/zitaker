@@ -39,26 +39,6 @@ Here are some ideas to get you started:
 ![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Disable an HTML Link using CSS</title>
-<style>
-    .disabled-link{
-        cursor: default;
-        pointer-events: none;
-        text-decoration: none;
-        color: grey;
-    }
-</style>
-</head>
-<body>
-    <a href="somepage.html" class="disabled-link">HTML Link</a>
-</body>
-</html>
-
-
 
 
 
