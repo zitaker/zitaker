@@ -38,10 +38,5 @@ Here are some ideas to get you started:
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=for-the-bardge&logo=postgresql)
 ![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)
 
-<a href="#" onclick="return false">![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)</a>
-
-<img src="https://github.com/AlexeyShpavda/alexeyshpavda/blob/master/assets/the_unlimited.png" alt="The Unlimited" width="180"/>
-
-
 
 
