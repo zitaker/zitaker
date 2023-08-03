@@ -38,7 +38,16 @@ Here are some ideas to get you started:
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=for-the-bardge&logo=postgresql)
 ![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)
 
+<style>
+    .disabled-link{
+        cursor: default;
+        pointer-events: none;
+        text-decoration: none;
+        color: grey;
+    }
+</style>
 
+<a href="somepage.html" class="disabled-link">HTML Link</a>
 <a style="pointer-events: none;" href="somepage.html">css Link</a>
 
 
