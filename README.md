@@ -39,6 +39,8 @@ Here are some ideas to get you started:
 ![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)
 
 
+<a style="pointer-events: none;" href="somepage.html">css Link</a>
+
 
 
 
