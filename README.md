@@ -38,16 +38,7 @@ Here are some ideas to get you started:
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=for-the-bardge&logo=postgresql)
 ![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)
 
-<style>
-    .disabled-link{
-        cursor: default;
-        pointer-events: none;
-        text-decoration: none;
-        color: grey;
-    }
-</style>
-
-![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker, pointer-events: none;)
+<a href="#" onclick="return false;">![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)</a>
 
 
 
