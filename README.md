@@ -40,7 +40,7 @@ Here are some ideas to get you started:
 
 <a href="#" onclick="return false">![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)</a>
 
-<a href="#" onclick="return false">
+<a onclick="return false">
   <img src="https://github.com/AlexeyShpavda/alexeyshpavda/blob/master/assets/the_unlimited.png" alt="The Unlimited" width="180"/>
 </a>
 
