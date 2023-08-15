@@ -36,7 +36,6 @@ Here are some ideas to get you started:
 ## And here's what I'm going to study or already learning
 ![Django](https://img.shields.io/badge/Django-333333?style=for-the-bardge&logo=django)
 ![Flask](https://img.shields.io/badge/Flask-333333?style=for-the-bardge&logo=flask)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=for-the-bardge&logo=postgresql)
 ![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)
 
 
