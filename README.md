@@ -20,6 +20,7 @@ Here are some ideas to get you started:
 -->
 ## And here's what I already know
 ![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python)
+![Flask](https://img.shields.io/badge/Flask-333333?style=for-the-bardge&logo=flask)
 ![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git)
 ![GithubActions](https://img.shields.io/badge/GithubActions(CI/CD)-333333?style=for-the-bardge&logo=githubactions)
 ![Bash](https://img.shields.io/badge/Bash-333333?style=for-the-bardge&logo=gnubash)
@@ -35,7 +36,6 @@ Here are some ideas to get you started:
 
 ## And here's what I'm going to study or already learning
 ![Django](https://img.shields.io/badge/Django-333333?style=for-the-bardge&logo=django)
-![Flask](https://img.shields.io/badge/Flask-333333?style=for-the-bardge&logo=flask)
 ![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)
 
 
