@@ -21,6 +21,9 @@ Here are some ideas to get you started:
 ## And here's what I already know
 ![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python)
 ![Flask](https://img.shields.io/badge/Flask-333333?style=for-the-bardge&logo=flask)
+![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=for-the-bardge&logo=FastAPI)
+
+
 ![Git](https://img.shields.io/badge/Git-333333?style=for-the-bardge&logo=git)
 ![GithubActions](https://img.shields.io/badge/GithubActions(CI/CD)-333333?style=for-the-bardge&logo=githubactions)
 ![Bash](https://img.shields.io/badge/Bash-333333?style=for-the-bardge&logo=gnubash)
