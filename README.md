@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+```
 from typing import Tuple, List, Dict
 
 
@@ -33,6 +34,7 @@ class Attributes(GeorgiiDryndin):
         }
 
         return language
+```
 
 <!--
 сайт для поиска виджетов https://simpleicons.org/?q=Actions
