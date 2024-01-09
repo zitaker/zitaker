@@ -1,5 +1,5 @@
 ### Hi there 👋
-<h2 align="center">About Me </h2>
+<h3 align="center">About Me </h3>
 
 ```
 from typing import Tuple, List, Dict
