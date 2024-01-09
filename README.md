@@ -23,10 +23,10 @@ class Attributes(GeorgiiDryndin):
 
     @property
     def life(self) -> Tuple[List[str], int]:
-        langs = ['English', 'Russia']
+        languages = ['English', 'Russia']
         age = 26
 
-        return langs, age
+        return languages, age
 
     @property
     def coding(self) -> Dict[str, str]:
