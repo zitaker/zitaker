@@ -1,5 +1,39 @@
 ### Hi there 👋
 
+from typing import Tuple, List, Dict
+
+
+class GeorgiiDryndin:
+    pass
+
+
+class Attributes(GeorgiiDryndin):
+    @property
+    def contact(self) -> Tuple[str, str, str, str, str, str]:
+        whatsapp = "https://wa.me/79601589492"
+        telegram = "https://t.me/Georg_Dryndin"
+        linkedin = "https://www.linkedin.com/in/georg-dryndin-3a098b257"
+        hexlet = "https://ru.hexlet.io/u/user-1bdf7d03342d857f"
+        email = "georbearwolf@gmail.com"
+        telephone = "+79601589492"
+
+        return whatsapp, telegram, linkedin, hexlet, email, telephone
+
+    @property
+    def life(self) -> Tuple[List[str], int]:
+        langs = ['English', 'Russia']
+        age = 26
+
+        return langs, age
+
+    @property
+    def coding(self) -> Dict[str, str]:
+        language = {
+            'junior': 'python'
+        }
+
+        return language
+
 <!--
 сайт для поиска виджетов https://simpleicons.org/?q=Actions
 как реализовать виджет https://the-unl.com/kak-oformit-profil-na-github-s-pomoshchyu-github-profile-readme-21
