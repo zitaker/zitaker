@@ -73,4 +73,4 @@ Here are some ideas to get you started:
 ![HTML](https://img.shields.io/badge/HTML-333333?style=for-the-bardge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-333333?style=for-the-bardge&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-333333?style=for-the-bardge&logo=bootstrap)
-![uml](https://img.shields.io/badge/PlantUML-333333?style=for-the-bardge&logo=uml)
+![uml](https://img.shields.io/badge/UML-333333?style=for-the-bardge&logo=uml)
