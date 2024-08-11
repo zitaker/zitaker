@@ -74,3 +74,5 @@ Here are some ideas to get you started:
 ![CSS](https://img.shields.io/badge/CSS-333333?style=for-the-bardge&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-333333?style=for-the-bardge&logo=bootstrap)
 ![NetworkAdministration](https://img.shields.io/badge/NetworkAdministration-333333?style=for-the-bardge&logo=worldhealthorganization)  
+
+![NetworkAdministration](https://img.shields.io/badge/uml-333333?style=for-the-bardge&logo=uml)
