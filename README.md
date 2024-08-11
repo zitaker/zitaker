@@ -58,6 +58,7 @@ Here are some ideas to get you started:
 ## And here's what I already know
 ![Python](https://img.shields.io/badge/Python-333333?style=for-the-bardge&logo=Python)
 ![Docker](https://img.shields.io/badge/Docker-333333?style=for-the-bardge&logo=docker)
+![Django](https://img.shields.io/badge/Django-333333?style=for-the-bardge&logo=django)
 ![Flask](https://img.shields.io/badge/Flask-333333?style=for-the-bardge&logo=flask)
 ![FastAPI](https://img.shields.io/badge/FastAPI-333333?style=for-the-bardge&logo=FastAPI)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-333333?style=for-the-bardge&logo=postgresql)
@@ -73,8 +74,3 @@ Here are some ideas to get you started:
 ![CSS](https://img.shields.io/badge/CSS-333333?style=for-the-bardge&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-333333?style=for-the-bardge&logo=bootstrap)
 ![NetworkAdministration](https://img.shields.io/badge/NetworkAdministration-333333?style=for-the-bardge&logo=worldhealthorganization)  
-
-## And here's what I'm going to study or already learning
-![Django](https://img.shields.io/badge/Django-333333?style=for-the-bardge&logo=django)
-
-
