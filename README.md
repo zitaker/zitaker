@@ -11,28 +11,27 @@ class GeorgiiDryndin:
 
 class Attributes(GeorgiiDryndin):
     @property
-    def contact(self) -> Tuple[str, str, str, str, str, str]:
+    def contact(self) -> Tuple[str, str, str, str, str, str, str]:
         whatsapp = "https://wa.me/79601589492"
         telegram = "https://t.me/Georg_Dryndin"
         linkedin = "https://www.linkedin.com/in/georg-dryndin-3a098b257"
         hexlet = "https://ru.hexlet.io/u/user-1bdf7d03342d857f"
         email = "georbearwolf@gmail.com"
         telephone = "+79601589492"
+        gitlab = "https://gitlab.basealt.space/dryndinga"
 
-        return whatsapp, telegram, linkedin, hexlet, email, telephone
+        return whatsapp, telegram, linkedin, hexlet, email, telephone, gitlab
 
     @property
     def life(self) -> Tuple[List[str], int]:
-        languages = ['English', 'Russian']
+        languages = ["English", "Russian"]
         age = 27
 
         return languages, age
 
     @property
     def coding(self) -> Dict[str, str]:
-        language = {
-            'junior': 'python'
-        }
+        language = {"junior": "python"}
 
         return language
 ```
