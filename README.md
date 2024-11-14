@@ -41,6 +41,7 @@ class AboutMe:
 
     def __init__(self):
         """Registers personal hobbies and interests."""
+
         logging.info("I love traveling, outdoor activities and sports.")
         logging.info("I was engaged in rowing, I am fond of martial arts.")
 
