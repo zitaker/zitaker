@@ -51,6 +51,7 @@ class AttributesInfo(AboutMe):
         Returns:
             Contact details.
         """
+
         return {
             "whatsapp": "https://wa.me/79601589492",
             "telegram": "https://t.me/Georg_Dryndin",
