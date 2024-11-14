@@ -19,6 +19,18 @@ Attributes:
 Logging:
    - The logging level is set to INFO. When an AboutMe object is instantiated,
      personal hobbies and interests are logged.
+
+Tests:
+   - Tests verifying data types:
+       - test_attributes_info_contact_type.
+       - test_attributes_info_life_type.
+       - test_attributes_info_coding_type.
+
+   - Tests verifying correctness of values:
+       - test_about_me_logging.
+       - test_attributes_info_contact.
+       - test_attributes_info_life.
+       - test_attributes_info_coding.
 """
 
 import logging
