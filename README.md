@@ -1,17 +1,64 @@
 ### Hi there 👋
-<h3 align="center">About Me </h3>
 
 ```python
+"""
+This module defines classes related to personal information and attributes.
+
+It contains the following classes:
+1. AboutMe:
+   A class representing general personal hobbies and interests, including
+   a love for traveling, sports, and martial arts. It logs this information
+   when an object is instantiated.
+
+2. AttributesInfo:
+   A subclass of AboutMe that extends the functionality by providing
+   additional personal attributes, including contact information, knowledge
+   of languages and programming skills.
+
+Classes:
+- AboutMe: Logs personal information and hobbies.
+- AttributesInfo: Contains information about me and adds personal contact
+  information, the languages I speak, age, and programming skills.
+
+Methods:
+- AttributesInfo.contact: Returns personal contact information.
+- AttributesInfo.life: Returns the languages I speak and my age.
+- AttributesInfo.coding: Returns programming skills.
+
+The logging level is set to INFO, so personal hobbies and interests are
+logged when an object is created.
+"""
+
+import logging
+
 from typing import Tuple, List, Dict
 
-
-class GeorgiiDryndin:
-    pass
+logging.basicConfig(level=logging.INFO)
 
 
-class Attributes(GeorgiiDryndin):
+class AboutMe:
+    """Class representing personal information and hobbies."""
+
+    def __init__(self):
+        """Registers personal hobbies and interests."""
+        logging.info("I love traveling, outdoor activities and sports.")
+        logging.info("I was engaged in rowing, I am fond of martial arts.")
+
+
+class AttributesInfo(AboutMe):
+    """
+    Class that inherits from AboutMe and adds additional personal attributes.
+    """
+
     @property
     def contact(self) -> Tuple[str, str, str, str, str, str, str]:
+        """
+        Retrieves personal contact information.
+
+        Returns:
+            Contact details.
+        """
+
         whatsapp = "https://wa.me/79601589492"
         telegram = "https://t.me/Georg_Dryndin"
         linkedin = "https://www.linkedin.com/in/georg-dryndin-3a098b257"
@@ -24,6 +71,8 @@ class Attributes(GeorgiiDryndin):
 
     @property
     def life(self) -> Tuple[List[str], int]:
+        """Retrieves information about the languages I speak and my age."""
+
         languages = ["English", "Russian"]
         age = 27
 
@@ -31,9 +80,9 @@ class Attributes(GeorgiiDryndin):
 
     @property
     def coding(self) -> Dict[str, str]:
-        language = {"junior": "python"}
+        """Retrieves information about programming skills."""
 
-        return language
+        return {"junior/middle": "python"}
 ```
 
 <!--
