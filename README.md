@@ -25,6 +25,8 @@ import logging
 
 from typing import Tuple
 
+import pytest
+
 logging.basicConfig(level=logging.INFO)
 
 
@@ -76,6 +78,118 @@ class AttributesInfo(AboutMe):
         """Retrieves information about programming skills."""
 
         return {"junior/middle": "python"}
+
+
+def test_attributes_info_contact_type() -> None:
+    """
+    Test that the `contact` property in `AttributesInfo` returns a dictionary.
+
+    Asserts:
+        The `contact` property returns a dict.
+    """
+    attributes_info = AttributesInfo()
+    assert isinstance(attributes_info.contact, dict)
+
+
+def test_attributes_info_life_type() -> None:
+    """
+    Test that the `life` property in `AttributesInfo` returns a tuple where
+    the first element is a list of strings and the second element is an int.
+
+    Asserts:
+        - The `life` property returns a tuple.
+        - The first element in the tuple is a list of strings.
+        - The second element in the tuple is an int.
+    """
+    attributes_info = AttributesInfo()
+    life_data = attributes_info.life
+    assert isinstance(life_data, tuple)
+    assert isinstance(life_data[0], list)
+    assert all(isinstance(lang, str) for lang in life_data[0])
+    assert isinstance(life_data[1], int)
+
+
+def test_attributes_info_coding_type() -> None:
+    """
+    Test that the `coding` property in `AttributesInfo` returns a dictionary.
+
+    Asserts:
+        The `coding` property returns a dict with string values.
+    """
+    attributes_info = AttributesInfo()
+    assert isinstance(attributes_info.coding, dict)
+    assert all(
+        isinstance(level, str) for level in attributes_info.coding.values()
+    )
+
+
+def test_about_me_logging(caplog: pytest.LogCaptureFixture) -> None:
+    """
+    Test that the `AboutMe` class logs messages about hobbies and interests
+    on initialization.
+
+    Args:
+        caplog (pytest.LogCaptureFixture): Fixture for capturing log messages.
+
+    Asserts:
+        - Log message about traveling, outdoor activities, and sports.
+        - Log message about rowing and martial arts.
+    """
+    with caplog.at_level(logging.INFO):
+        AboutMe()
+    assert "I love traveling, outdoor activities and sports." in caplog.text
+    assert "I was engaged in rowing, I am fond of martial arts." in caplog.text
+
+
+def test_attributes_info_contact() -> None:
+    """
+    Test that the `contact` property in `AttributesInfo` returns expected
+    contact information.
+
+    Asserts:
+        The `contact` property returns a dictionary with specific key-value
+        pairs.
+    """
+    attributes_info = AttributesInfo()
+    expected_contact = {
+        "whatsapp": "https://wa.me/79601589492",
+        "telegram": "https://t.me/Georg_Dryndin",
+        "gitlab": "https://gitlab.basealt.space/dryndinga",
+        "linkedin": "https://www.linkedin.com/in/georg-dryndin-3a098b257",
+        "hexlet": "https://ru.hexlet.io/u/user-1bdf7d03342d857f",
+        "telephone": "+79601589492",
+        "email": "georbearwolf@gmail.com",
+    }
+    assert attributes_info.contact == expected_contact
+
+
+def test_attributes_info_life() -> None:
+    """
+    Test that the `life` property in `AttributesInfo` returns expected
+    languages and age.
+
+    Asserts:
+        - The `life` property returns a list with specific languages.
+        - The `life` property returns the expected age.
+    """
+    attributes_info = AttributesInfo()
+    languages, age = attributes_info.life
+    assert languages == ["English", "Russian"]
+    assert age == 27
+
+
+def test_attributes_info_coding() -> None:
+    """
+    Test that the `coding` property in `AttributesInfo` returns expected
+    programming skills.
+
+    Asserts:
+        The `coding` property returns a dictionary with specific key-value
+        pairs.
+    """
+    attributes_info = AttributesInfo()
+    expected_coding = {"junior/middle": "python"}
+    assert attributes_info.coding == expected_coding
 ```
 
 <!--
