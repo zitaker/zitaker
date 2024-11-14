@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+<h3 align="center">An example of how I write code.</h3>
+
 ```python
 """
 This module defines classes related to personal information and attributes.
