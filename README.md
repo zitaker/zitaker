@@ -33,7 +33,7 @@ logged when an object is created.
 
 import logging
 
-from typing import Tuple, List, Dict
+from typing import Tuple
 
 logging.basicConfig(level=logging.INFO)
 
@@ -54,26 +54,25 @@ class AttributesInfo(AboutMe):
     """
 
     @property
-    def contact(self) -> Tuple[str, str, str, str, str, str, str]:
+    def contact(self) -> dict:
         """
         Retrieves personal contact information.
 
         Returns:
             Contact details.
         """
-
-        whatsapp = "https://wa.me/79601589492"
-        telegram = "https://t.me/Georg_Dryndin"
-        linkedin = "https://www.linkedin.com/in/georg-dryndin-3a098b257"
-        hexlet = "https://ru.hexlet.io/u/user-1bdf7d03342d857f"
-        email = "georbearwolf@gmail.com"
-        telephone = "+79601589492"
-        gitlab = "https://gitlab.basealt.space/dryndinga"
-
-        return whatsapp, telegram, linkedin, hexlet, email, telephone, gitlab
+        return {
+            "whatsapp": "https://wa.me/79601589492",
+            "telegram": "https://t.me/Georg_Dryndin",
+            "gitlab": "https://gitlab.basealt.space/dryndinga",
+            "linkedin": "https://www.linkedin.com/in/georg-dryndin-3a098b257",
+            "hexlet": "https://ru.hexlet.io/u/user-1bdf7d03342d857f",
+            "telephone": "+79601589492",
+            "email": "georbearwolf@gmail.com",
+        }
 
     @property
-    def life(self) -> Tuple[List[str], int]:
+    def life(self) -> Tuple[list[str], int]:
         """Retrieves information about the languages I speak and my age."""
 
         languages = ["English", "Russian"]
@@ -82,7 +81,7 @@ class AttributesInfo(AboutMe):
         return languages, age
 
     @property
-    def coding(self) -> Dict[str, str]:
+    def coding(self) -> dict:
         """Retrieves information about programming skills."""
 
         return {"junior/middle": "python"}
