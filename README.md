@@ -6,29 +6,19 @@
 """
 This module defines classes related to personal information and attributes.
 
-It contains the following classes:
-1. AboutMe:
-   A class representing general personal hobbies and interests, including
-   a love for traveling, sports, and martial arts. It logs this information
-   when an object is instantiated.
-
-2. AttributesInfo:
-   A subclass of AboutMe that extends the functionality by providing
-   additional personal attributes, including contact information, knowledge
-   of languages and programming skills.
-
 Classes:
-   - AboutMe: Logs personal information and hobbies.
-   - AttributesInfo: Contains information about me and adds personal contact
-     information, the languages I speak, age, and programming skills.
+   - AboutMe: Logs general personal hobbies and interests.
+   - AttributesInfo: Extends AboutMe with additional personal details, such as
+     contact information, spoken languages, age, and programming skills.
 
-Methods:
-   - AttributesInfo.contact: Returns personal contact information.
-   - AttributesInfo.life: Returns the languages I speak and my age.
+Attributes:
+   - AttributesInfo.contact: Returns contact information.
+   - AttributesInfo.life: Returns a tuple of languages spoken and age.
    - AttributesInfo.coding: Returns programming skills.
 
-The logging level is set to INFO, so personal hobbies and interests are
-logged when an object is created.
+Logging:
+   - The logging level is set to INFO. When an AboutMe object is instantiated,
+     personal hobbies and interests are logged.
 """
 
 import logging
