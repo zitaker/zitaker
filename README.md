@@ -18,14 +18,14 @@ It contains the following classes:
    of languages and programming skills.
 
 Classes:
-- AboutMe: Logs personal information and hobbies.
-- AttributesInfo: Contains information about me and adds personal contact
-  information, the languages I speak, age, and programming skills.
+   - AboutMe: Logs personal information and hobbies.
+   - AttributesInfo: Contains information about me and adds personal contact
+     information, the languages I speak, age, and programming skills.
 
 Methods:
-- AttributesInfo.contact: Returns personal contact information.
-- AttributesInfo.life: Returns the languages I speak and my age.
-- AttributesInfo.coding: Returns programming skills.
+   - AttributesInfo.contact: Returns personal contact information.
+   - AttributesInfo.life: Returns the languages I speak and my age.
+   - AttributesInfo.coding: Returns programming skills.
 
 The logging level is set to INFO, so personal hobbies and interests are
 logged when an object is created.
