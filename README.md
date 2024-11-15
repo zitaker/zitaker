@@ -99,6 +99,7 @@ def test_attributes_info_contact_type() -> None:
     Asserts:
         The `contact` property returns a dict.
     """
+
     attributes_info = AttributesInfo()
     assert isinstance(attributes_info.contact, dict)
 
@@ -113,6 +114,7 @@ def test_attributes_info_life_type() -> None:
         - The first element in the tuple is a list of strings.
         - The second element in the tuple is an int.
     """
+
     attributes_info = AttributesInfo()
     life_data = attributes_info.life
     assert isinstance(life_data, tuple)
@@ -128,6 +130,7 @@ def test_attributes_info_coding_type() -> None:
     Asserts:
         The `coding` property returns a dict with string values.
     """
+
     attributes_info = AttributesInfo()
     assert isinstance(attributes_info.coding, dict)
     assert all(
@@ -147,6 +150,7 @@ def test_about_me_logging(caplog: pytest.LogCaptureFixture) -> None:
         - Log message about traveling, outdoor activities, and sports.
         - Log message about rowing and martial arts.
     """
+
     with caplog.at_level(logging.INFO):
         AboutMe()
     assert "I love traveling, outdoor activities and sports." in caplog.text
@@ -162,6 +166,7 @@ def test_attributes_info_contact() -> None:
         The `contact` property returns a dictionary with specific key-value
         pairs.
     """
+
     attributes_info = AttributesInfo()
     expected_contact = {
         "whatsapp": "https://wa.me/79601589492",
@@ -184,6 +189,7 @@ def test_attributes_info_life() -> None:
         - The `life` property returns a list with specific languages.
         - The `life` property returns the expected age.
     """
+
     attributes_info = AttributesInfo()
     languages, age = attributes_info.life
     assert languages == ["English", "Russian"]
@@ -199,6 +205,7 @@ def test_attributes_info_coding() -> None:
         The `coding` property returns a dictionary with specific key-value
         pairs.
     """
+
     attributes_info = AttributesInfo()
     expected_coding = {"junior/middle": "python"}
     assert attributes_info.coding == expected_coding
