@@ -35,7 +35,7 @@ Tests:
 
 import logging
 
-from typing import Tuple
+from typing import Tuple, List
 
 import pytest
 
@@ -76,7 +76,7 @@ class AttributesInfo(AboutMe):
         }
 
     @property
-    def life(self) -> Tuple[list[str], int]:
+    def life(self) -> Tuple[List[str], int]:
         """Retrieves information about the languages I speak and my age."""
 
         languages = ["English", "Russian"]
