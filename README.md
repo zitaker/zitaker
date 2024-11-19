@@ -71,7 +71,6 @@ class AttributesInfo(AboutMe):
             "telegram": "https://t.me/Georg_Dryndin",
             "gitlab": "https://gitlab.basealt.space/dryndinga",
             "linkedin": "https://www.linkedin.com/in/georg-dryndin-3a098b257",
-            "hexlet": "https://ru.hexlet.io/u/user-1bdf7d03342d857f",
             "telephone": "+79601589492",
             "email": "georbearwolf@gmail.com",
         }
@@ -173,7 +172,6 @@ def test_attributes_info_contact() -> None:
         "telegram": "https://t.me/Georg_Dryndin",
         "gitlab": "https://gitlab.basealt.space/dryndinga",
         "linkedin": "https://www.linkedin.com/in/georg-dryndin-3a098b257",
-        "hexlet": "https://ru.hexlet.io/u/user-1bdf7d03342d857f",
         "telephone": "+79601589492",
         "email": "georbearwolf@gmail.com",
     }
