@@ -246,8 +246,6 @@ Here are some ideas to get you started:
 ![CSS](https://img.shields.io/badge/CSS-333333?style=for-the-bardge&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-333333?style=for-the-bardge&logo=bootstrap)
 ![uml](https://img.shields.io/badge/UML-333333?style=for-the-bardge&logo=uml)
-
 ![rabbitmq](https://img.shields.io/badge/RabbitMQ-333333?style=for-the-bardge&logo=rabbitmq)
-
 ![mypy](https://img.shields.io/badge/mypy-333333?style=for-the-bardge&logo=mypy)
 ![black](https://img.shields.io/badge/black-333333?style=for-the-bardge&logo=black)
