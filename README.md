@@ -80,7 +80,7 @@ class AttributesInfo(AboutMe):
         """Retrieves information about the languages I speak and my age."""
 
         languages = ["English", "Russian"]
-        age = 27
+        age = 28
 
         return languages, age
 
@@ -88,7 +88,7 @@ class AttributesInfo(AboutMe):
     def coding(self) -> dict:
         """Retrieves information about programming skills."""
 
-        return {"junior/middle": "python"}
+        return {"middle": "python"}
 
 
 def test_attributes_info_contact_type() -> None:
@@ -191,7 +191,7 @@ def test_attributes_info_life() -> None:
     attributes_info = AttributesInfo()
     languages, age = attributes_info.life
     assert languages == ["English", "Russian"]
-    assert age == 27
+    assert age == 28
 
 
 def test_attributes_info_coding() -> None:
@@ -205,8 +205,17 @@ def test_attributes_info_coding() -> None:
     """
 
     attributes_info = AttributesInfo()
-    expected_coding = {"junior/middle": "python"}
+    expected_coding = {"middle": "python"}
     assert attributes_info.coding == expected_coding
+
+
+if __name__ == "__main__":
+    info = AttributesInfo()
+
+    logging.info(info.contact)
+    logging.info(info.life)
+    logging.info(info.coding)
+
 ```
 
 <!--
